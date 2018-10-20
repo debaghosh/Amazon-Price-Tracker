@@ -50,7 +50,7 @@ def send_mail():
         msg
     )
 
-    print("HEY EMAIL HAS BEEN SENT!")
+    print("HEY EMAIL HAS BEEN SENT, DON'T MISS IT!")
 
     server.quit
 
