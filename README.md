@@ -1,5 +1,5 @@
 # Amazon Price Tracker :moneybag:	
-**Python project - Parsing**
+**Python project - Parsing** :books:
 
 A script to check whether the price of Six Crows Duology bookset has reduced below ₹2,100. Whenever the price falls, an email :e-mail: and sms :inbox_tray:
  gets sent to the users accounts along with the link of the URL of the product on Amazon. The email is sent by the built in `smtplib` and the sms is sent through `twilio`. 
