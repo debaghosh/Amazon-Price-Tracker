@@ -14,7 +14,7 @@ def check_price():
 
     title = soup.find(id="productTitle").text
     price = soup.find(id='soldByThirdParty').span.text
-    converted_price = float(price[2:3]+price[4:7])
+    converted_price = float(price.replace("₹","").replace(",",""))
     if(converted_price <= 2500):
         send_mail()
 
