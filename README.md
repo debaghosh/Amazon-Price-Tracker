@@ -14,6 +14,6 @@ A script to check whether the price of Six Crows Duology bookset :orange_book: h
 2. Install Twillio: `pip install twilio`
 
 ## Usage
-1. Get all your required credentials form twillio and google
+1. Get all your required credentials from twillio and google
 2. Add them to necessary locations in scraper.py
 3. Run scraper.py file `python scraper.py`
